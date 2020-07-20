@@ -1,2 +1,2 @@
 # bannerservice
-kariyer.net banner tool for advertisement
+kariyer.net banner segmentation tool for advertisement

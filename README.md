@@ -1,5 +1,5 @@
 # Banner Segmentation Service
-kariyer.net banner segmentation tool for advertisement
+Kariyer.net banner segmentation tool for advertisement
 
 ---
 

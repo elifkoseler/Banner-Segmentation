@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.Banner.API", "KariyerNet.Banner.API\KariyerNet.Banner.API.csproj", "{35F0C9C7-4F90-4E19-A31F-D367923503BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{44060551-F3B8-4F9B-9AF8-F85380A48CC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B38C09E4-F7B5-4694-936E-831CB18CB911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7F090CCF-EC85-43E9-9268-01B09CFDF7E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{00170AC4-5CF5-4E80-ACBE-E1ADD26C558C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.Banner.Business", "KariyerNet.Banner.Business\KariyerNet.Banner.Business.csproj", "{51E88584-5819-43E1-851F-78D599CEC0CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.Banner.Business.Contract", "KariyerNet.Banner.Business.Contract\KariyerNet.Banner.Business.Contract.csproj", "{427DE7F3-157F-4E42-9944-70CDBF507337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.Banner.Business.DTO", "KariyerNet.Banner.Business.DTO\KariyerNet.Banner.Business.DTO.csproj", "{4754E79E-7C34-40A0-AE6E-0F898050C911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerNet.Banner.Data", "KariyerNet.Banner.Data\KariyerNet.Banner.Data.csproj", "{8677C2DE-0826-44F9-87BA-050F39B46C2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerNet.Banner.Data.Contract", "KariyerNet.Banner.Data.Contract\KariyerNet.Banner.Data.Contract.csproj", "{5E427305-329A-467D-A4D8-D9A9CC29ED0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerNet.Banner.Client.DTO", "KariyerNet.Banner.Client.DTO\KariyerNet.Banner.Client.DTO.csproj", "{52D081E1-A1D0-49AE-A997-82BDD0FADD19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerNet.Banner.Data.Entities", "KariyerNet.Banner.Data.Entities\KariyerNet.Banner.Data.Entities.csproj", "{9258B914-3FDF-48E5-B460-53874D2A6981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KariyerNet.Banner.API.Bootstrapper", "KariyerNet.Banner.API.Bootstrapper\KariyerNet.Banner.API.Bootstrapper.csproj", "{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35F0C9C7-4F90-4E19-A31F-D367923503BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F0C9C7-4F90-4E19-A31F-D367923503BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F0C9C7-4F90-4E19-A31F-D367923503BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F0C9C7-4F90-4E19-A31F-D367923503BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E88584-5819-43E1-851F-78D599CEC0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E88584-5819-43E1-851F-78D599CEC0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E88584-5819-43E1-851F-78D599CEC0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E88584-5819-43E1-851F-78D599CEC0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427DE7F3-157F-4E42-9944-70CDBF507337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427DE7F3-157F-4E42-9944-70CDBF507337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427DE7F3-157F-4E42-9944-70CDBF507337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427DE7F3-157F-4E42-9944-70CDBF507337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4754E79E-7C34-40A0-AE6E-0F898050C911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4754E79E-7C34-40A0-AE6E-0F898050C911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4754E79E-7C34-40A0-AE6E-0F898050C911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4754E79E-7C34-40A0-AE6E-0F898050C911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8677C2DE-0826-44F9-87BA-050F39B46C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8677C2DE-0826-44F9-87BA-050F39B46C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8677C2DE-0826-44F9-87BA-050F39B46C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8677C2DE-0826-44F9-87BA-050F39B46C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E427305-329A-467D-A4D8-D9A9CC29ED0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E427305-329A-467D-A4D8-D9A9CC29ED0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E427305-329A-467D-A4D8-D9A9CC29ED0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E427305-329A-467D-A4D8-D9A9CC29ED0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D081E1-A1D0-49AE-A997-82BDD0FADD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D081E1-A1D0-49AE-A997-82BDD0FADD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D081E1-A1D0-49AE-A997-82BDD0FADD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D081E1-A1D0-49AE-A997-82BDD0FADD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9258B914-3FDF-48E5-B460-53874D2A6981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9258B914-3FDF-48E5-B460-53874D2A6981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9258B914-3FDF-48E5-B460-53874D2A6981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9258B914-3FDF-48E5-B460-53874D2A6981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35F0C9C7-4F90-4E19-A31F-D367923503BC} = {44060551-F3B8-4F9B-9AF8-F85380A48CC5}
+		{51E88584-5819-43E1-851F-78D599CEC0CC} = {00170AC4-5CF5-4E80-ACBE-E1ADD26C558C}
+		{427DE7F3-157F-4E42-9944-70CDBF507337} = {00170AC4-5CF5-4E80-ACBE-E1ADD26C558C}
+		{4754E79E-7C34-40A0-AE6E-0F898050C911} = {00170AC4-5CF5-4E80-ACBE-E1ADD26C558C}
+		{8677C2DE-0826-44F9-87BA-050F39B46C2A} = {B38C09E4-F7B5-4694-936E-831CB18CB911}
+		{5E427305-329A-467D-A4D8-D9A9CC29ED0D} = {B38C09E4-F7B5-4694-936E-831CB18CB911}
+		{52D081E1-A1D0-49AE-A997-82BDD0FADD19} = {44060551-F3B8-4F9B-9AF8-F85380A48CC5}
+		{9258B914-3FDF-48E5-B460-53874D2A6981} = {B38C09E4-F7B5-4694-936E-831CB18CB911}
+		{2934C1F5-B9A4-43DB-A05C-138ECAF4F4FC} = {44060551-F3B8-4F9B-9AF8-F85380A48CC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38C3FF54-B775-4752-8B5F-67A074C13D8B}
+	EndGlobalSection
+EndGlobal

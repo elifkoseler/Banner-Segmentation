@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KariyerNet.Banner.Client.DTO\KariyerNet.Banner.Client.DTO.csproj" />
+    <ProjectReference Include="..\KariyerNet.Banner.Data.Entities\KariyerNet.Banner.Data.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
